@@ -1,0 +1,103 @@
+/*main-layout*/
+body {
+    margin-left: 240px;
+    margin-top: 34px;
+    background-color: #F4F4F4;
+}
+.fixed-top {
+    margin-left: 240px;
+    height:34px;
+    background-color: #F4F4F4;
+    z-index:1;
+}
+.fixed-left {
+    width: 240px
+}
+
+.fixed-top .btn {
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+/*left*/
+
+
+.fixed-left {
+    background-image: url('../images/bg.png');
+    color: #BBB;
+}
+
+
+/* tab */
+
+.task-icon-txt   { color: #696769; }
+.task-icon-xml   { color: #029065; }
+.task-icon-ini   { color: #800094; }
+.task-icon-csv   { color: #0D48C7; }
+.task-icon-json  { color: #007FC2; }
+.task-icon-plist { color: #6B0AD3; }
+.task-icon-prop { color: #6B0AD3; }
+
+
+/*Table*/
+
+
+.lang-lists {
+    line-height:1;
+    font-size:13px;
+    border-left: 1px solid #01A99D;
+    border-right-width: 0;
+    margin-top:10px;
+}
+
+.lang-lists li {
+    float:left;
+    width:33.333%;
+    padding-left: 5px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    border-right:1px solid #01A99D;
+    position:rrelative;
+}
+
+.lang-lists li:hover,
+.lang-lists li.active:hover{
+    background-color: #B3C9F0;
+}
+
+.lang-lists li.active{
+    background-color: #D4E2F5;
+}
+
+.lang-label {
+    width: 100%;
+    display:inline;
+    font-weight: initial;
+}
+
+.lang-label span{
+    position: absolute;
+    min-width:140px;
+    margin-top: 2px;
+}
+
+.lang-label input{
+    margin: 0;
+    margin-top: 2px;
+}
+
+.lang-abbr {
+    float:right;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    width:40px;
+    font-weight: blod;
+    border-bottom: 1px dashed #2F8A91;
+    color: #C50505;
+    font-weight: bold;
+}
+
+.table.codec-list .codec-name {
+    padding: 2px 2px 0 2px;
+}
